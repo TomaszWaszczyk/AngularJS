@@ -89,7 +89,7 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 
 ## Timeline
 ### BEAM
-![]()
+![](https://raw.githubusercontent.com/TomaszWaszczyk/awesome-beam-mimble-wimble/master/pictures/roadmap-2019.png)
 
 
 ## Tutorials

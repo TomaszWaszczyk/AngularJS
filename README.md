@@ -118,7 +118,7 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 ## Research
 ### Atomic Swap
 
-[Atomic Swaps](https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/Swap_Diagram.svg)
+<img src="https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/Swap_Diagram.svg">
 
 ## Security
 ## Critiques

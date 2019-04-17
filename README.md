@@ -120,6 +120,12 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 
 <img src="https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/Swap_Diagram.svg">
 
+### Transfer BEAM's Assets to ERC-20 Ethereum tokens
+
+https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/2019-03-20_17.37.14.jpg
+
+https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/2019-03-20_17.37.21.jpg
+
 ## Security
 ## Critiques
 ## Appendix

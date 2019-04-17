@@ -126,6 +126,21 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 
 ![](https://github.com/TomaszWaszczyk/awesome-beam-mimble-wimble/blob/master/pictures/2019-03-20_17.37.21.jpg)
 
+### Mining algorithm
+
+The difference between Equihash 150/5 and Beam Hash.
+Equihash has two phases - first a lot - 2^26 bitstrings of length 150 bits are created by using a hash function (blake2b) from the work to mine on and their index. 
+Then these bitstrings are matched by top bits resulting in shorter bit strings iteratively until one creates one everywhere 0 bitstring equipped with the indexes of the initial elements that were used to create this 0.
+
+This is what we call a solution. A gpu will always like that, but an ASIC that is very strong at blake2b could in first round write only the top part of the bitstring and match the shorter pieces  and then later recover the full length by additional computations on the indexes. 
+
+Thats whats new at beamhash: we glue together the computation of neighbored bitstrings in the initial phase. Since they are neighbored that is at very low extra cost on GPU. But if you now want to use the trade of you do not need to recover one but many computations making it much more expensive for asics - bothfrom chip space as well as energy use.
+
+and regarding the fork: 
+Beam is very memory heavy - so heavy that recent results on asic chip design research (fun fact: for grin ^^) give us strong evidence that its too heavy for single chip asics at the moment. So to prevent multi chip ones we just make sure we do a change heavy enough to invalidate existing approaches. 
+
+Therefore we of cause look into opportunities to make live better for the miners, replacing the quite compute heavy blake2b at the beginning of the hash by something more lightweight that consumes less energy is definitely an option we consider / make research for.
+
 ## Security
 ## Critiques
 ## Appendix

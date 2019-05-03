@@ -70,11 +70,13 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 
 ## Social Channels
 
+- [Website](https://www.beam.mw/) https://www.beam.mw/
+
 - [News](https://t.me/BeamNews) latest announcements
 
-- Telegram: t.me/BeamPrivacy
+- Telegram: https://t.me/BeamPrivacy
 
-- Reddit: reddit.com/r/beamprivacy/
+- Reddit: https://reddit.com/r/beamprivacy/
 
 - Twitter: https://twitter.com/beamprivacy
 
@@ -85,6 +87,8 @@ Silesia Blockchain Meetup in Katowice, Poland, May 14th
 - Forum: https://forum.beam.mw/
 
 - Newsletter: https://beamprivacy.substack.com/
+
+- Github(https://github.com/BeamMW) https://github.com/BeamMW
 
 
 ## Timeline
